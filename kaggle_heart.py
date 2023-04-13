@@ -22,7 +22,7 @@ model.compile(
 model.summary()
 
 # Load the data from the CSV file
-data = pd.read_csv('data/heart_data.csv')
+data = pd.read_csv('heart_data.csv')
 
 X = data.iloc[:, 2:13]
 y = data.iloc[:, 13:14]
